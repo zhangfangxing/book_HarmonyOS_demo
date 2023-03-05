@@ -1,0 +1,17 @@
+<div class="container">
+    <swiper class="swiper" id="swiper" index="0" indicator="true" loop="true" digital="false" cachedsize="-1"
+            scrolleffect="spring">
+        <div class = "swiperContent1" >
+            <text class = "text">First screen</text>
+        </div>
+        <div class = "swiperContent2">
+            <text class = "text">Second screen</text>
+        </div>
+        <div class = "swiperContent3">
+            <text class = "text">Third screen</text>
+        </div>
+    </swiper>
+    <input class="button" type="button" value="swipeTo" onclick="swipeTo"></input>
+    <input class="button" type="button" value="showNext" onclick="showNext"></input>
+    <input class="button" type="button" value="showPrevious" onclick="showPrevious"></input>
+</div>

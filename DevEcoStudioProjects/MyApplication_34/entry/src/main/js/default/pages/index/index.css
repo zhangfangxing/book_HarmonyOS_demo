@@ -1,0 +1,27 @@
+.doc-page {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F3F5;
+}
+.dialogClass{
+    width: 80%;
+    height: 250px;
+    margin-start: 1%;
+}
+.content{
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    background-color: #e8ebec;
+    border-radius: 20px;
+}
+text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+button{
+    width: 70%;
+    height: 60px;
+}

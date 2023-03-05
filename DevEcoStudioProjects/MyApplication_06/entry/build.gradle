@@ -1,0 +1,22 @@
+apply plugin: 'com.huawei.ohos.hap'
+
+ohos {
+    compileSdkVersion 7
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+    compileOptions{            annotationEnabled true    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testImplementation 'junit:junit:4.13'
+}

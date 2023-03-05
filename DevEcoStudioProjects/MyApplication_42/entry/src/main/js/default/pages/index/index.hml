@@ -1,0 +1,20 @@
+<div class="container">
+    <tabs class = "tabs" index="0" vertical="false" onchange="change">
+        <tab-bar class="tab-bar" mode="fixed">
+            <text class="tab-text">Home</text>
+            <text class="tab-text">Index</text>
+            <text class="tab-text">Detail</text>
+        </tab-bar>
+        <tab-content class="tabcontent" scrollable="true">
+            <div class="item-content" >
+                <text class="item-title">First screen</text>
+            </div>
+            <div class="item-content" >
+                <text class="item-title">Second screen</text>
+            </div>
+            <div class="item-content" >
+                <text class="item-title">Third screen</text>
+            </div>
+        </tab-content>
+    </tabs>
+</div>

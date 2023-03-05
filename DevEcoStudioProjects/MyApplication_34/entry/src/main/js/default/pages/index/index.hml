@@ -1,0 +1,8 @@
+<div class="doc-page">
+    <dialog class="dialogClass" id="dialogId">
+        <div class="content">
+            <text>this is a dialog</text>
+        </div>
+    </dialog>
+    <button value="click me" onclick="openDialog"></button>
+</div>

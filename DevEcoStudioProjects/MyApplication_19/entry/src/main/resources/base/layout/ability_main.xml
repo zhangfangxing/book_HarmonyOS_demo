@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:stack_layout"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:height="40vp"
+        ohos:width="80vp"
+        ohos:layout_alignment="right"
+        ohos:background_element="#3399FF"/>
+
+</StackLayout>

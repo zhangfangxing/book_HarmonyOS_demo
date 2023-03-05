@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="flex-box">
+        <div class="flex-item color-primary"></div>
+        <div class="flex-item color-warning"></div>
+        <div class="flex-item color-success"></div>
+    </div>
+</div>

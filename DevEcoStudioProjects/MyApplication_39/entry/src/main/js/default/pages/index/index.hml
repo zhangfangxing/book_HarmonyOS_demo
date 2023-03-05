@@ -1,0 +1,6 @@
+<div class="common grid-parent">
+    <div class="grid-child grid-left-top"></div>
+    <div class="grid-child grid-left-bottom"></div>
+    <div class="grid-child grid-right-top"></div>
+    <div class="grid-child grid-right-bottom"></div>
+</div>

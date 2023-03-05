@@ -1,0 +1,10 @@
+<div class="container">
+    <stepper>
+        <stepper-item>
+            <text>Step 1</text>
+        </stepper-item>
+        <stepper-item>
+            <text>Step 2</text>
+        </stepper-item>
+    </stepper>
+</div>

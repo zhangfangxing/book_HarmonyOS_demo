@@ -1,0 +1,28 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 454px;
+    height: 454px;
+}
+.flex-box {
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 140px;
+    background-color: #ffffff;
+}
+.flex-item {
+    width: 120px;
+    height: 120px;
+    border-radius: 16px;
+}
+.color-primary {
+    background-color: #007dff;
+}
+.color-warning {
+    background-color: #ff7500;
+}
+.color-success {
+    background-color: #41ba41;
+}

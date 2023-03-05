@@ -1,0 +1,9 @@
+<list>
+    <block for="{{books}}">
+        <list-item show="{{$item.isShow}}">
+            <text>{{$item.name}}</text>
+            <text if="{{$item.number >= 1}}">有剩余</text>
+            <text else>无剩余</text>
+        </list-item>
+    </block>
+</list>

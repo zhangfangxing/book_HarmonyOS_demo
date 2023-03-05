@@ -1,0 +1,11 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F3F5;
+}
+text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}

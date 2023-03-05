@@ -1,0 +1,8 @@
+<div class="container">
+<!-- 添加一个文本 -->
+    <text class="text">
+        Hello World
+    </text>
+<!-- 添加一个按钮，按钮样式设置为胶囊型，文本显示为Next，绑定launch事件 -->
+    <button class="button" type="capsule" value="Next" onclick="launch"></button>
+</div>

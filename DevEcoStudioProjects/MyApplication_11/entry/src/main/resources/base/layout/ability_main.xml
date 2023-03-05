@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:custom_container"
+    ohos:height="match_content"
+    ohos:width="300vp"
+    ohos:background_element="#F5F5F5">
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#FF9912"
+        ohos:margin="8vp"
+        ohos:padding="8vp"
+        ohos:text="BUTTON"
+        ohos:text_color="#FFFFFF"
+        ohos:text_size="18vp"/>
+</DependentLayout>

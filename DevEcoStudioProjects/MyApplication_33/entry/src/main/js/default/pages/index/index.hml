@@ -1,0 +1,4 @@
+<div class="container">
+    <picker id="picker_time" type="time" value="12小时制时间选择" hours="12" onchange="timeonchange"  class="pickertime"></picker>
+    <picker id="picker_time" type="time" value="24小时制时间选择" hours="24" onchange="timeonchange"  class="pickertime"></picker>
+</div>

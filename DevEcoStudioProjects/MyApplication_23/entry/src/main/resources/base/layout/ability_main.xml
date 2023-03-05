@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <AdaptiveBoxLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:weight="1"
+        ohos:id="$+id:adaptive_box_layout">
+
+        <Text
+            ohos:height="40vp"
+            ohos:width="80vp"
+            ohos:background_element="#EC9DAA"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="NO 1"
+            ohos:text_size="18fp" />
+
+        <Text
+            ohos:height="40vp"
+            ohos:width="80vp"
+            ohos:background_element="#EC9DAA"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="NO 2"
+            ohos:text_size="18fp" />
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="#EC9DAA"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:multiple_lines="true"
+            ohos:text="放置多个宽度相同，但高度不通的盒子，整行的高度由最高的盒子的高度来设定"
+            ohos:text_size="18fp" />
+
+        <Text
+            ohos:height="40vp"
+            ohos:width="80vp"
+            ohos:background_element="#EC9DAA"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="NO 4"
+            ohos:text_size="18fp" />
+
+        <Text
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:background_element="#EC9DAA"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="Add"
+            ohos:text_size="18fp" />
+
+
+        <Text
+            ohos:height="40vp"
+            ohos:width="80vp"
+            ohos:background_element="#EC9DAA"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="NO 5"
+            ohos:text_size="18fp" />
+
+        <Text
+            ohos:height="160vp"
+            ohos:width="80vp"
+            ohos:background_element="#EC9DAA"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="NO 6"
+            ohos:text_size="18fp" />
+    </AdaptiveBoxLayout>
+
+    <Button
+        ohos:id="$+id:add_rule_btn"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="10vp"
+        ohos:padding="10vp"
+        ohos:background_element="#A9CFF0"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="22fp"
+        ohos:text="添加自适应规则，规则详情见Java"/>
+
+    <Button
+        ohos:id="$+id:remove_rule_btn"
+        ohos:padding="10vp"
+        ohos:top_margin="10vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:bottom_margin="10vp"
+        ohos:background_element="#D5D5D5"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="22fp"
+        ohos:text="移除自适应规则，规则详情见Java"/>
+
+</DirectionalLayout>

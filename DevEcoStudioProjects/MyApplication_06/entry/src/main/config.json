@@ -1,0 +1,66 @@
+{
+  "app": {
+    "bundleName": "com.example.myapplication_06",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.myapplication_06",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.myapplication_06.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv",
+      "wearable",
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.myapplication_06.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "permissions": [
+          "com.example.myapplicationfifth.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "com.example.myapplication_06.MyDataAbility",
+        "icon": "$media:icon",
+        "description": "$string:mydataability_description",
+        "type": "data",
+        "visible": true,
+        "uri": "dataability://com.example.myapplication_06.MyDataAbility"
+      }
+    ],
+    "reqPermissions": [
+      { "name": "com.example.myapplicationfifth.DataAbility.DATA" },
+      { "name": "ohos.permission.READ_USER_STORAGE" },
+      { "name": "ohos.permission.WRITE_USER_STORAGE" }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+.container {
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F3F5;
+}
+.listItem{
+    height: 20%;
+    background-color:#d2e0e0;
+    margin-top: 20px;
+}

@@ -1,0 +1,8 @@
+<div class="container">
+    <list class="todo-wrapper">
+        <list-item for="{{todolist}}" class="todo-item">
+            <text class="todo-title">{{$item.title}}</text>
+            <text class="todo-title">{{$item.date}}</text>
+        </list-item>
+    </list>
+</div>

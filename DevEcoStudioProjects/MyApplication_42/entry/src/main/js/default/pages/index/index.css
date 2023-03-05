@@ -1,0 +1,30 @@
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tabs {
+    width: 100%;
+}
+.tabcontent {
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+}
+.item-content {
+    height: 100%;
+    justify-content: center;
+}
+.item-title {
+    font-size: 60px;
+}
+.tab-bar {
+    margin: 10px;
+    height: 60px;
+    border-color: #007dff;
+    border-width: 1px;
+}
+.tab-text {
+    width: 300px;
+    text-align: center;
+}

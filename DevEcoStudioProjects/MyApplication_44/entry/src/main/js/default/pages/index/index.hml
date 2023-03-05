@@ -1,0 +1,33 @@
+<div class="container">
+    <text class="title">
+        {{ $t('strings.title') }}
+    </text>
+
+    <tabs class = "tabs" index="0" vertical="false" onchange="change">
+        <tab-content class="tabcontent" scrollable="true">
+            <div class="item-message">
+                <list class="todo-wrapper">
+                    <list-item class="todo-title" for="{{todolist}}" class="todo-item">
+                        <text class="todo-message">{{$item.title}}</text>
+                        <text class="todo-time">{{$item.date}}</text>
+                    </list-item>
+                </list>
+            </div>
+            <div class="item-content" >
+                <text class="item-title">通讯录的详情</text>
+            </div>
+            <div class="item-content" >
+                <text class="item-title">发现的详情</text>
+            </div>
+            <div class="item-content" >
+                <text class="item-title">我的详情</text>
+            </div>
+        </tab-content>
+        <tab-bar class="tab-bar" mode="fixed">
+            <text class="tab-text">微信</text>
+            <text class="tab-text">通讯录</text>
+            <text class="tab-text">发现</text>
+            <text class="tab-text">我</text>
+        </tab-bar>
+    </tabs>
+</div>

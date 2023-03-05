@@ -1,0 +1,5 @@
+<div class="container">
+  <text for="{{books}}">
+    {{$idx +1}} {{$item.name}} {{$item.another}}
+  </text>
+</div>

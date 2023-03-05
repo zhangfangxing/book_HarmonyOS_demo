@@ -1,0 +1,14 @@
+.container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: purple  州;
+}
+image{
+    width: 80%;
+    height: 500px;
+    border: 5px solid saddlebrown;
+    border-radius: 20px;
+    object-fit: contain;
+    match-text-direction:true;
+}

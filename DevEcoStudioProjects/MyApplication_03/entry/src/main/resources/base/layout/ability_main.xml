@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="Ability页面跳转"
+        ohos:text_size="19fp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="70vp"
+        ohos:left_padding="70vp"
+        ohos:center_in_parent="true"
+        ohos:margin="10vp"
+        ohos:background_element="$graphic:background_button"/>
+
+</DirectionalLayout>
